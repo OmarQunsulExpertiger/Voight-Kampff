@@ -8940,6 +8940,11 @@
   string: Pingdom GIGRIB (http://www.pingdom.com)
 - string_match: exact
   types: 
+  - checker
+  description: Pingdom web site monitoring
+  string: Pingdom.com_bot_version_1.4_(http://www.pingdom.com/)
+- string_match: exact
+  types: 
   - crawler
   description: pipeline search (DMOZ based) search robot (24.106.39. xxx)
   string: pipeLiner/0.3a (PipeLine Spider;http://www.pipeline-search.com/webmaster.html; webmaster'at'pipeline-search.com)
